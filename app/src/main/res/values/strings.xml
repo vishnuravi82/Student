@@ -1,0 +1,864 @@
+<resources>
+    <string name="app_name_temp">NEO LN</string>
+    <string name="app_name">NEO</string>
+    <string name="app_name_qa">NEO-QA</string>
+    <string name="app_name_uat">NEO-UAT</string>
+    <string name="action_logout">Sign Out</string>
+    <string name="action_switch_user">Switch Role</string>
+    <string name="default_title">Mobilization</string>
+    <string name="sign_out">Sign out from app?</string>
+    <string name="exit_app">Exit from app?</string>
+    <string name="server_mode">Please choose a server environment</string>
+    <string name="allowed_char_name">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz</string>
+    <string name="allowed_char_email">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890._@-</string>
+    <string name="allowed_char_default">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 1234567890.,#-_</string>
+
+    <!--Font-->
+    <string name="brandon_reg">Brandon_reg</string>
+    <string name="brandon_bold">BrandonText_Bold</string>
+    <string name="brandon_light">BrandonText_Light</string>
+    <string name="georgia">Georgia</string>
+
+    <string name="no_permission">Please grant the required permissions to use the app.</string>
+    <string name="powered">Powered by</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="otp_verification">VERIFY OTP</string>
+    <string name="enterotp">Enter OTP here</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="username">Username</string>
+    <string name="mobile_no">Mobile Number</string>
+    <string name="stuent_app">Student App</string>
+    <string name="qm_salutation">*Salutation</string>
+    <string name="q_salutation">Salutation</string>
+    <string name="f_name">*First Name</string>
+    <string name="m_name">Middle Name</string>
+    <string name="l_name">Last Name</string>
+    <string name="mobile">*Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="search_c_name">Search by Candidate Name</string>
+    <string name="apply">Apply</string>
+    <string name="search">Search</string>
+    <string name="close">Close</string>
+
+    <string name="choose_prac">Choose Practice</string>
+    <string name="choose_center">Choose Center</string>
+    <string name="choose_course">Course Preference</string>
+
+    <string name="cand_list">Candidate List</string>
+    <string name="practice">Practice</string>
+    <string name="course">Course</string>
+    <string name="cand_status">Candidate Status</string>
+
+    <string name="choose_date">Choose Date</string>
+    <string name="choose_time">Choose Time</string>
+
+    <string-array name="cand_status">
+        <item>Pending</item>
+        <item>Completed</item>
+        <item>Not Eligible</item>
+        <item>Still In Enquiry</item>
+    </string-array>
+    <string-array name="salutation">
+        <item>--Select--</item>
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Miss.</item>
+    </string-array>
+    <string name="new_version_available">Newer version of this application is available on Google Play Store.\n\nKindly update the app to continue.</string>
+    <string name="update_now">Update Now</string>
+    <string name="update_later">No, Later</string>
+    <string name="important">Important</string>
+
+    <string name="validate">Validate</string>
+    <string name="validate_mobile">Send SMS</string>
+    <string name="validate_email">Check Duplication</string>
+    <string name="verify">Verify</string>
+    <string name="verify2">Verify Contact No using</string>
+    <string name="resend">Resend SMS</string>
+    <string name="otp">Reg. Number</string>
+    <string name="resend_link">Resend SMS</string>
+    <string name="verify_web">Verify Web Link</string>
+    <string name="or">(OR)</string>
+    <string name="web">Web Link</string>
+
+    <!--TMA-->
+    <string name="exit">Exit</string>
+    <string name="sdcardpath">/NEO/data/</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="history">History</string>
+    <string name="requestid">Enter the requestid</string>
+
+
+    <string name="rateperbatch">Rate&#47;Batch</string>
+    <string name="transport_expense">Transport Expenses</string>
+    <string name="other_expense">Other Expenses</string>
+    <string name="saveas">Save As Draft</string>
+
+    <string name="num_sessions">No. of Sessions Selected : "</string>
+
+    <!--<string-array name="typeofexpense">
+        <item>Select Type of expense</item>
+        <item>Transportation</item>
+        <item>Food</item>
+        <item>Tea</item>
+        <item>Other</item>
+    </string-array>-->
+
+    <string name="stud_count">Enter the number of candidates present for this training session</string>
+    <string name="ip_error">Invalid entry</string>
+
+    <string name="mark_attend">Please mark attendance for the candidates present in this training session</string>
+    <string name="group_pic">Please click group photos of all candidates present in this training session</string>
+    <string name="image_evidence">Please click relevant photos of this training session</string>
+    <string name="video_evidence">Please record videos of duration 60–90seconds only</string>
+
+    <string name="search_batch">Search by Batch Code</string>
+    <string name="batch_status">Batch Status</string>
+    <string name="batch">Batch</string>
+    <string-array name="batch_status">
+        <item>Completed</item>
+        <item>Ongoing</item>
+        <item>Scheduled</item>
+    </string-array>
+    <string name="image_label">Enter image description</string>
+
+    <string name="session_plan">Session Plan</string>
+    <string name="module">Module</string>
+    <string name="session_status">Session Status</string>
+    <string name="search_s_name">Search by Session Name</string>
+
+    <string-array name="session_status">
+        <item>All</item>
+        <item>In Progress</item>
+        <item>Not Started</item>
+    </string-array>
+    <string name="proceed">Proceed</string>
+
+    <!--CM-->
+    <string name="mclg">MCLG</string>
+    <string name="tma">TMA</string>
+    <string name="center">Center</string>
+
+    <!--New NEO-->
+    <string name="mobilize">Mobilization</string>
+    <string name="register">Registration</string>
+    <string name="enrol">Enrollment</string>
+    <string name="reenrol">Re-Enrollment</string>
+    <string name="train">Training</string>
+    <string name="ojt">OJT</string>
+    <string name="quality">Quality Monitoring</string>
+    <string name="placement">Placement Tracking</string>
+
+    <string name="mobilize_cand">Add New Candidate</string>
+    <string name="register_cand">Register Candidate</string>
+    <string name="enrol_cand">Enroll Candidate</string>
+    <string name="reenrol_cand">Re-Enroll Candidate</string>
+    <string name="pend_cand">Pending Candidates</string>
+    <string name="comp_cand">Completed Candidates</string>
+    <string name="mob_cand">Mobilized Candidates</string>
+    <string name="reg_cand">Registered Candidates</string>
+    <string name="enr_cand">Enrolled Candidates</string>
+    <string name="upload_data">Upload Data</string>
+
+    <string name="save_draft">Save Draft</string>
+
+    <string name="cand_name">Candidate Name</string>
+    <string name="cand_mobile">Mobile Number</string>
+    <string name="cand_action">Action</string>
+    <string name="upload">Upload</string>
+    <string name="upload_all">Upload All</string>
+
+    <string name="company_name">*Company Name</string>
+    <string name="company_addr">*Address</string>
+    <string name="rm_name">*RM Name</string>
+    <string name="rm_mobile">*RM Mobile Number</string>
+    <string name="rm_email">RM Email Id</string>
+
+    <!--Sections-->
+    <string name="s_basic_info">Basic Information</string>
+    <string name="s_enrolment_info">Enrolment Information</string>
+    <string name="s_student_info">Student Information</string>
+    <string name="s_present_addr">Present Address</string>
+    <string name="s_perm_addr">Permanent Address</string>
+    <string name="s_social_protect">Social Protection</string>
+    <string name="s_work_exp">Work Experience</string>
+    <string name="s_edn_skills">Education &amp; Skills</string>
+    <string name="s_family_details">Family Details</string>
+    <string name="s_bank_details">Bank Details</string>
+    <string name="s_batch_details">Batch Details</string>
+    <string name="s_mcl">Mobilization Checklist</string>
+    <string name="s_personal">Personal</string>
+    <string name="s_professional">Professional</string>
+    <string name="s_social_interest">Social Willingness &amp; Interest</string>
+    <string name="s_program_req">Program Requirements</string>
+    <string name="s_finance">Finance</string>
+    <string name="s_health_safety">Health &amp; Safety</string>
+    <string name="s_ownership_details">Ownership Details</string>
+    <string name="s_docs_req">Documents Required</string>
+    <string name="s_she_activities">SHE Activities</string>
+    <string name="s_dell_reg">Dell Section</string>
+
+    <!--Questions-->
+    <string name="q_cand_pic">Candidate Photo</string>
+    <string name="qm_dob">*Date of Birth</string>
+    <string name="qm_age">*Age</string>
+    <string name="qm_primary_contact">*Primary Contact No</string>
+    <string name="q_wa_num">Whatsapp Number</string>
+    <string name="q_second_contact">Secondary Contact No</string>
+    <string name="q_email">Email Id</string>
+    <string name="qm_email">*Email Id</string>
+    <string name="qm_gender">*Gender</string>
+    <string name="q_gender">Gender</string>
+    <string name="q_marital_status">*Marital Status</string>
+    <string name="q_caste">*Caste</string>
+    <string name="q_disability">*Disability Status</string>
+    <string name="q_religion">*Religion</string>
+    <string name="q_mother_tongue">Mother Tongue</string>
+    <string name="q_occupation">Occupation</string>
+    <string name="q_annual_income">*Average Monthly income</string>
+    <string name="q_source_info">*Source of Information</string>
+    <string name="q_interest_course">Interested Course</string>
+    <string name="q_product">Product</string>
+    <string name="qm_mother_tongue">*Mother Tongue</string>
+    <string name="qm_occupation">*Occupation</string>
+    <string name="qm_annual_income">*Average monthly Income</string>
+    <string name="qm_interest_course">*Interested Course</string>
+    <string name="qm_product">*Product</string>
+    <string name="qm_cand_pic">*Candidate Photo</string>
+    <string name="q_add_family">Add Family Member</string>
+
+    <string name="q_addr_line1">Address Line 1</string>
+    <string name="q_addr_line2">Address Line 2</string>
+    <string name="q_village">*Village/Ward</string>
+    <string name="q_panchayat">Panchayat</string>
+    <string name="q_taluk">Taluk\/Block</string>
+    <string name="q_pincode">*Pincode</string>
+    <string name="q_district">*District</string>
+    <string name="q_state">*State</string>
+    <string name="q_country">*Country</string>
+    <string name="q_same_addr">Same as Present Address</string>
+    <string name="qm_addr_line1">*Address Line 1</string>
+
+    <string name="q_aadhar_no">Aadhaar Number</string>
+    <string name="q_aadhar_img">Aadhaar Image</string>
+    <string name="q_id_type">Identifier Type</string>
+    <string name="q_id_no">Identity Number</string>
+    <string name="q_doc_copy">Document Copy</string>
+    <string name="qm_aadhar_no">*Aadhaar Number</string>
+    <string name="qm_aadhar_img">*Aadhaar Image</string>
+    <string name="qm_id_type">*Identifier Type</string>
+    <string name="qm_id_no">*Identity Number</string>
+    <string name="qm_doc_copy">*ID Copy</string>
+
+    <string name="q_emp_type">*Employment Type</string>
+    <string name="q_pref_job">*Preferred Job Role</string>
+    <string name="q_yrs_exp">*Years of Experience</string>
+    <string name="q_relevant_exp">*Relevant Years of Experience</string>
+    <string name="q_last_ctc">*Current/Last CTC</string>
+    <string name="q_pref_location">*Preferred Location</string>
+    <string name="q_will_travel">*Willing to travel?</string>
+    <string name="q_work_shift">*Willing to work in shifts?</string>
+    <string name="q_bocw_id">Candidate reference code (BOCW Id)</string>
+    <string name="q_expect_ctc">*Expected CTC per month</string>
+
+    <string name="qm_high_quali">*Highest Qualification</string>
+    <string name="qm_edn_stream">*Stream\/Specialization</string>
+    <string name="q_insti_name">Name of Institute</string>
+    <string name="q_edn_univ">University</string>
+    <string name="q_yr_pass">Year of Pass</string>
+    <string name="q_edn_percent">Percentage</string>
+    <string name="qm_computer_know">*Computer Knowledge</string>
+    <string name="qm_tech_know">*Technical Knowledge</string>
+    <string name="q_high_quali">Highest Qualification</string>
+    <string name="q_edn_stream">Stream\/Specialization</string>
+    <string name="q_computer_know">Computer Knowledge</string>
+    <string name="q_tech_know">Technical Knowledge</string>
+
+    <string name="qm_member_name">*Member Name</string>
+    <string name="q_dob">Date of Birth</string>
+    <string name="q_age">Age</string>
+    <string name="q_primary_contact">Primary Contact No</string>
+    <string name="qm_edn_quali">*Education Qualification</string>
+    <string name="qm_member_relation">*Relationship</string>
+    <string name="qm_house_income">*Average Monthly Household Income</string>
+    <string name="q_member_name">Member Name</string>
+    <string name="q_edn_quali">Education Qualification</string>
+    <string name="q_member_relation">Relationship</string>
+    <string name="q_house_income">Average Monthly Household Income</string>
+
+    <string name="q_bank_name">Bank Name</string>
+    <string name="qm_bank_name">*Bank Name</string>
+    <string name="q_branch_name">Branch Name</string>
+    <string name="q_ifsc_code">IFSC Code</string>
+    <string name="q_acc_type">Account Type</string>
+    <string name="q_acc_number">Account Number</string>
+    <string name="q_attachment">Attachment</string>
+    <string name="qm_acc_number">*Account Number</string>
+    <string name="qm_attachment">*Attachment</string>
+
+    <string name="q_assign_batch">*Assign Batch</string>
+    <string name="q_course">Course</string>
+    <string name="q_ext_batch">External Batch Code</string>
+
+    <string name="q_place_visit">*Place of Visit</string>
+    <string name="q_residence">*Residence</string>
+    <string name="q_tech_expertise">Technical Expertise</string>
+    <string name="q_others_specify">If Others, please specify</string>
+    <string name="q_exp_elec">*Total Experience as Electrician (yrs)</string>
+    <string name="q_exp_following">*How many years of experience do you have in any of the following?\nFull house electrical wiring works\/MCB\/Meter Installation\/Earthing</string>
+    <string name="q_exp_inverter">Do you have experience in Inverter\/Batteries Installation?</string>
+    <string name="q_exp_ac">Do you have experience in AC Installation?</string>
+    <string name="q_exp_motor">Do you have experience in Submersible\/Tube-well\/Motor\/Pump Installation?</string>
+    <string name="q_exp_geyser">Do you have experience in Geyser Installation?</string>
+    <string name="q_exp_fan">Do you have experience in Appliance\/Fan\/Lights Repair?</string>
+    <string name="q_exp_solar">Do you have experience in Roof-top Solar Panel Installation?</string>
+    <string name="q_smartphone">*Do you use smartphone with Android version 4.0 and above?</string>
+    <string name="q_know_city">*Do you have good knowledge of the city and the geography like routes, localities, markets etc?</string>
+    <string name="q_work_more">*Are you willing to do additional work of 2–4 hours per day in case of incremental income?</string>
+    <string name="q_expand_business">*Are you willing to expand business?\n(By visiting to different Electric Shops and Commercial Customers to explain them the concepts, get the Mobile App installed on their phones and follow-up for giving business to them through the app)</string>
+    <string name="q_will_learn">*Are you willing to invest time in learning for training in installation and repair work in case if incremental income given?</string>
+    <string name="q_will_commute">*Are you willing to travel for service jobs by commuting up to 40 KMs radius?</string>
+    <string name="q_have_bike">*Do you have a 2-wheeler with license?</string>
+    <string name="q_arrange_helper">*Can you arrange for helpers by yourself, if required for service jobs?</string>
+
+    <string name="q_10th_pass">*Are you 10th Pass?</string>
+    <string name="q_read_write_local">*Can you read, write and speak in local language?</string>
+    <string name="q_read_english">*Can you read\/write in English?</string>
+    <string name="q_min_6_exp">*Do you have minimum 6 months of experience?</string>
+    <string name="q_good_communication">*Do you have good communication skills?</string>
+    <string name="q_understand_covid">*Do you understand COVID appropriate behaviour?</string>
+    <string name="q_serve_mobilizer">*Are you willing to serve the community at this time of COVID-19 pandemic as Mobilizer?</string>
+    <string name="q_travel_within_phc">*Are you willing to travel from one place to another within the PHC\/CITY?</string>
+    <string name="q_undergo_training">*Are you willing to undergo online trainings and mentorship program if required?</string>
+    <string name="q_work_full_time">*Are you willing to work full time\/part time post training?</string>
+    <string name="q_report_mcl_data">*Are you willing to report beneficiary data mobilized by you?</string>
+    <string name="q_12th_pass">*Are you 12th Pass from a recognised institute?</string>
+    <string name="q_work_ms_office">*Have you worked on MS office (Word,Excel)?</string>
+    <string name="q_serve_deo">*Are you willing to serve the community at this time of COVID-19 pandemic as Data Entry Operator?</string>
+    <string name="q_training_1yr">*Are you willing to undergo online trainings and mentorship program for 6 months\/1 year?</string>
+    <string name="q_report_deo_data">*Are you willing to report data entry done by you for vaccination?</string>
+    <string name="q_complete_bsc">*Have you completed BSc Nursing\/MBBS\/Ayush\/Homeopathy\/Unani?</string>
+    <string name="q_exp_ngo">*Do you have experience with NGO OR Health care Activities?</string>
+    <string name="q_exp_vaccine">*Are you having any experience in Vaccination?</string>
+    <string name="q_exp_hospital">*Are you having work experience in Hospital\/Medical department?</string>
+    <string name="q_serve_vaccinator">*Are you willing to serve the community at this time of COVID-19 pandemic as Vaccinator?</string>
+    <string name="q_report_vaccine_data">*Are you willing to share the data of the vaccinations done by you?</string>
+
+    <string name="q_8th_pass">*Are you 8th Pass?</string>
+    <string name="q_read_local">*Can you read\/write in local language?</string>
+    <string name="q_have_phone">*Do you have a smart phone?</string>
+    <string name="q_buy_phone">*Are you willing to buy a smartphone?</string>
+    <string name="q_own_bike">*Do you own two wheeler?</string>
+    <string name="q_exp_past">*Do you have any work experience?</string>
+    <string name="q_operate_phone">*Do you know how to operate a smartphone?</string>
+    <string name="q_work_6hrs">*Will you able to work full time or at least 6 hours a day?</string>
+    <string name="q_is_entre">*Are you\/Have you been an entrepreneur before?</string>
+    <string name="q_family_permit">*Do you have permission from your family to work outside your locality?</string>
+    <string name="q_member_shg">*Are you a member of SHG?</string>
+    <string name="q_will_she">*Are you willing to serve the community at this time of COVID-19 pandemic as Sanitization &amp; Hygiene Entrepreneurs (SHE)?</string>
+    <string name="q_travel_place">*Are you willing to travel for work?</string>
+    <string name="q_online_training">*Are you willing to undergo online trainings and mentorship program for 6 months?</string>
+    <string name="q_share_to_ln">*Are you willing to share details of customer, revenue, expenses frequently with LN?</string>
+    <string name="q_contract_ln">*Are you willing to work and sign the work contract with LN?</string>
+    <string name="q_buy_tools">*Are you willing to buy tools and consumables required to run your business?</string>
+    <string name="q_adopt_digital">*Are you willing to adopt digital transactions in your business?</string>
+    <string name="q_register_social">*Are you willing to register your business in Social platforms like WhatsApp, Facebook, Geo listing, Just dial etc.?</string>
+    <string name="q_have_bank">*Do you have a bank account?</string>
+    <string name="q_loan_past">*Have you availed any loan in the past?</string>
+    <string name="q_active_loan">*Do you have any active loan?</string>
+    <string name="q_take_loan">*Are you willing to take up a loan to purchase tools and consumables?</string>
+    <string name="q_health_insurance">*Are you covered under any health insurance?</string>
+    <string name="q_allergic_dust">*Are you allergic to any chemicals and dust?</string>
+    <string name="q_wear_ppe">*Will you able to wear mandatory PPEs during the work?</string>
+    <string name="q_follow_safety">*Are you willing to follow Environment, Health and Safety Norms in your area of work?</string>
+    <string name="q_legal_enquiry">*Have you ever been subjected to any legal enquiry for Non ethical work/business?</string>
+
+    <string name="q_address_aadhaar">Address as per Aadhaar Card (incl pin code)</string>
+    <string name="q_head_house">Head of the household</string>
+    <string name="q_members_earning">Number of members earning in the family</string>
+    <string name="q_own_house">Rented or own house?</string>
+    <string name="q_house_size">Size of the house in sq ft</string>
+    <string name="q_ration_card">APL or BPL Ration Card?</string>
+    <string name="q_choose_assets">Choose the assets that you own</string>
+    <string name="q_farm_acre">*Acreage of farm land</string>
+    <string name="o_tv">TV</string>
+    <string name="o_fridge">Refrigerator</string>
+    <string name="o_wash">Washing Machine</string>
+    <string name="o_ac">AC\/Cooler</string>
+    <string name="o_car">Car</string>
+    <string name="o_med_ins">Medical Insurance</string>
+    <string name="o_life_ins">Life Insurance</string>
+    <string name="o_kids_edn">Kids Education</string>
+    <string name="o_farm_land">Farm Land</string>
+
+    <string name="q_edn_copy">Educational Qualification Proof</string>
+    <string name="q_age_copy">Age Proof</string>
+    <string name="q_signed_mou">*Signed MoU</string>
+    <string name="q_mou_date">*MoU Signed Date</string>
+    <string name="q_kit_date">*Kit Given Date</string>
+
+    <string name="q_addr_proof">Current Address Proof (if not same as in Aadhaar)</string>
+    <string name="q_wallet_proof">Mobile Wallet Proof</string>
+    <string name="q_work_ref_proof">Past Employer Reference</string>
+
+    <string name="qm_edn_copy">*Educational Qualification Proof</string>
+    <string name="q_asp_district">*Aspirational District</string>
+    <string name="q_income_proof">Income Certificate</string>
+
+    <string name="btn_update_cand_data">Update Candidate Data</string>
+    <string name="btn_update_activity_status">Update Activity Status</string>
+    <string name="btn_view_activity_status">View Activity Status</string>
+    <string name="btn_log_status">Log Status</string>
+    <string name="btn_view_history">View History</string>
+
+    <string name="m_activity_status">*Status</string>
+    <string name="activity_reason">Reason</string>
+    <string name="activity_date">*Date &amp; Time</string>
+    <string name="m_activity_remarks">*Action\/Remarks</string>
+    <string name="current_date">Current Date &amp; Time</string>
+    <string name="activity_history">Activity Status History</string>
+    <string name="save">Save</string>
+    <string name="select_date">Selected Date &amp; Time</string>
+    <string name="save_date">Saved Date &amp; Time</string>
+    <string name="activity_status">Status</string>
+    <string name="activity_remarks">Action\/Remarks</string>
+    <string name="no_history">No history found</string>
+    <string name="current_time_format">dd MMM yyyy hh:mm aa</string>
+
+    <string name="cand_id">Candidate ID</string>
+
+    <string name="reached_ofc">Reached Office</string>
+    <string name="record_work">Record Work</string>
+    <string name="left_ofc">Left Office</string>
+    <string name="ojt_time">%s - %s</string>
+
+    <string name="start_record">Start Recording</string>
+    <string name="stop_record">Stop Recording</string>
+    <string name="pause_record">Pause Recording</string>
+    <string name="resume_record">Resume Recording</string>
+    <string name="cancel_record">Cancel Recording</string>
+    <string name="cut_off">Cut-off time: 5mins</string>
+
+    <string name="qma_pre_training">Pre-Training</string>
+    <string name="qma_theory">Theory</string>
+    <string name="qma_practical">Practical</string>
+    <string name="qma_learning">Learning</string>
+    <string name="qma_lunch">Lunch</string>
+    <string name="qma_assessment">Assessment</string>
+    <string name="qma_certification">Certification</string>
+    <string name="qma_feedback">Feedback</string>
+    <string name="qma_attendance">Attendance</string>
+    <string name="qma_testimonial">Testimonial</string>
+
+    <string name="month_1">Month 1</string>
+    <string name="month_2">Month 2</string>
+    <string name="month_3">Month 3</string>
+
+    <string name="click">Click</string>
+    <string name="attach">Attach</string>
+
+    <!--Adp-->
+    <string-array name="adp_job_role_nsdc_bat">
+        <item>Community Mobilizer</item>
+        <item>Data Entry Operator</item>
+        <item>Vaccinator</item>
+    </string-array>
+    <string-array name="adp_reg_status">
+        <item>--Select--</item>
+        <item>Mobilized</item>
+        <item>Interest validated</item>
+        <item>Course details briefed</item>
+        <item>Visited center</item>
+        <item>Invited to demo class</item>
+        <item>Attended demo class</item>
+        <item>Followed up for registration</item>
+        <item>Backed out before registration</item>
+        <item>Not interested now</item>
+    </string-array>
+    <string-array name="adp_enr_status">
+        <item>--Select--</item>
+        <item>Registered</item>
+        <item>Backed out before enrollment</item>
+        <item>Not Interested now</item>
+        <item>Followed up for enrollment</item>
+    </string-array>
+    <string-array name="adp_salutation">
+        <item>--Select--</item>
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Ms.</item>
+        <item>Dr.</item>
+    </string-array>
+    <string-array name="adp_gender">
+        <item>--Select--</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Transgender</item>
+    </string-array>
+    <string-array name="adp_marital_status">
+        <item>--Select--</item>
+        <item>Married</item>
+        <item>Unmarried</item>
+        <item>Widowed</item>
+        <item>Separated</item>
+    </string-array>
+    <string-array name="adp_caste">
+        <item>--Select--</item>
+        <item>Gen</item>
+        <item>OBC</item>
+        <item>SC</item>
+        <item>ST</item>
+        <item>NA</item>
+    </string-array>
+    <string-array name="adp_disability">
+        <item>--Select--</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="adp_religion">
+        <item>--Select--</item>
+        <item>Hindu</item>
+        <item>Muslim</item>
+        <item>Christian</item>
+        <item>Sikh</item>
+        <item>Jain</item>
+        <item>Buddhist</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="adp_mother_tongue">
+        <item>--Select--</item>
+        <item>Bangla</item>
+        <item>Assamese</item>
+        <item>Kannada</item>
+        <item>Hindi</item>
+        <item>Gujarati</item>
+        <item>Malayalam</item>
+        <item>Marathi</item>
+        <item>Telugu</item>
+        <item>Tamil</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="adp_source_info">
+        <item>--Select--</item>
+        <item>Web Portal</item>
+        <item>Field Sourcing</item>
+        <item>Partners</item>
+        <item>Social Media</item>
+        <item>Political Leaders</item>
+        <item>Community</item>
+        <item>Advertisements</item>
+        <item>SMS</item>
+        <item>Walk-in</item>
+        <item>Reference</item>
+        <item>Call Campaign</item>
+    </string-array>
+    <string-array name="adp_product">
+        <item>--Select--</item>
+        <item>Assessment</item>
+        <item>Placement</item>
+        <item>Training</item>
+        <item>Walk-in</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="adp_id_type">
+        <item>--Select--</item>
+        <item>Voter ID</item>
+        <item>Ration Card</item>
+        <item>Bank Account</item>
+        <item>Insurance Life</item>
+        <item>Savings In Formal Sources</item>
+        <item>Pradhan Mantri Jeevan Jyoti Bima Yojana</item>
+        <item>Pradhan Mantri Suraksha Bima Yojana</item>
+        <item>Kisan Credit Card</item>
+        <item>Organic Farming</item>
+        <item>Pradhan Mantri Atal Pension Yojana</item>
+        <item>Indira Awas Yojana</item>
+        <item>Swachh Bharat Abhiyan Free Toilet Scheme</item>
+        <item>Kaushal Vikas Yojana</item>
+        <item>LPG Subsidy</item>
+        <item>Pan Card</item>
+        <item>Driving License</item>
+        <item>NPR</item>
+        <item>Job Card</item>
+        <item>Waste Picker Id</item>
+        <item>Passport</item>
+    </string-array>
+    <string-array name="adp_emp_type">
+        <item>--Select--</item>
+        <item>Professional</item>
+        <item>Salaried</item>
+        <item>Self Employed</item>
+        <item>Unemployed</item>
+    </string-array>
+    <string-array name="adp_yes_no">
+        <item>--Select--</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="adp_expect_ctc">
+        <item>--Select--</item>
+        <item>0 to 15000</item>
+        <item>15000 to 25000</item>
+        <item>25000 to 35000</item>
+        <item>35000 to 45000</item>
+        <item>45000 to 55000</item>
+        <item>55000 to 65000</item>
+        <item>65000 to 75000</item>
+        <item>75000 to 85000</item>
+        <item>85000 to 95000</item>
+        <item>95000 to 100000</item>
+    </string-array>
+    <string-array name="adp_high_quali">
+        <item>--Select--</item>
+        <item>1 to 5</item>
+        <item>6 to 10</item>
+        <item>Up to 12</item>
+        <item>Diploma</item>
+        <item>Graduate</item>
+        <item>Post Graduate</item>
+        <item>PhD</item>
+    </string-array>
+    <string-array name="adp_edn_quali">
+        <item>--Select--</item>
+        <item>Class 1 to Class 12</item>
+        <item>Diploma</item>
+        <item>Graduate</item>
+        <item>Post Graduate</item>
+        <item>PhD</item>
+    </string-array>
+    <string-array name="adp_member_relation">
+        <item>--Select--</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Husband</item>
+        <item>Wife</item>
+        <item>Son</item>
+        <item>Daughter</item>
+    </string-array>
+    <string-array name="adp_acc_type">
+        <item>--Select--</item>
+        <item>Savings</item>
+        <item>Current</item>
+    </string-array>
+    <string-array name="adp_residence">
+        <item>--Select--</item>
+        <item>Local</item>
+        <item>Migrant</item>
+    </string-array>
+    <string-array name="adp_max_quali">
+        <item>--Select--</item>
+        <item>Till Class 9</item>
+        <item>Class 10</item>
+        <item>Higher Secondary</item>
+        <item>Diploma</item>
+        <item>Graduate</item>
+        <item>Post Graduate</item>
+        <item>PhD</item>
+    </string-array>
+    <string-array name="adp_tech_expertise">
+        <item>--Select--</item>
+        <item>Not Trained</item>
+        <item>ITI</item>
+        <item>Diploma</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="adp_house">
+        <item>--Select--</item>
+        <item>Rented</item>
+        <item>Own</item>
+    </string-array>
+    <string-array name="adp_ration_card">
+        <item>--Select--</item>
+        <item>APL</item>
+        <item>BPL</item>
+    </string-array>
+    <string-array name="adp_bank_name">
+        <item>--Select--</item>
+        <item>Abhyudaya Co-Op Bank Ltd</item>
+        <item>Abu Dhabi Commercial Bank</item>
+        <item>Akola District Central Co-Operative Bank</item>
+        <item>Akola Janata Commercial Cooperative Bank</item>
+        <item>Allahabad Bank</item>
+        <item>Almora Urban Co-Operative Bank Ltd</item>
+        <item>Andhra Pragathi Grameena Bank</item>
+        <item>Apna Sahakari Bank Ltd</item>
+        <item>Australia And New Zealand Banking Group Ltd</item>
+        <item>Axis Bank</item>
+        <item>Bank International Indonesia</item>
+        <item>Bank Of America</item>
+        <item>Bank Of Bahrain And Kuwait</item>
+        <item>Bank Of Baroda</item>
+        <item>Bank Of Ceylon</item>
+        <item>Bank Of India</item>
+        <item>Bank Of Maharashtra</item>
+        <item>Bank Of Tokyo-Mitsubishi Ufj Ltd</item>
+        <item>Barclays Bank PLC</item>
+        <item>Bassein Catholic Co-Op Bank Ltd</item>
+        <item>Bharatiya Mahila Bank Limited</item>
+        <item>BNP Paribas</item>
+        <item>Calyon Bank</item>
+        <item>Canara Bank</item>
+        <item>Capital Local Area Bank Ltd</item>
+        <item>Catholic Syrian Bank Ltd</item>
+        <item>Central Bank Of India</item>
+        <item>Chinatrust Commercial Bank</item>
+        <item>Citibank</item>
+        <item>Citizen Credit Co-Operative Bank Ltd</item>
+        <item>City Union Bank Ltd</item>
+        <item>Commonwealth Bank Of Australia</item>
+        <item>Corporation Bank</item>
+        <item>Credit Suisse AG</item>
+        <item>DBS Bank Ltd</item>
+        <item>Dena Bank</item>
+        <item>Deutsche Bank</item>
+        <item>Deutsche Securities India Private Limited</item>
+        <item>Development Credit Bank Limited</item>
+        <item>Dhanlaxmi Bank Ltd</item>
+        <item>DICGC</item>
+        <item>Dombivli Nagari Sahakari Bank Limited</item>
+        <item>Firstrand Bank Limited</item>
+        <item>Gopinath Patil Parsik Janata Sahakari Bank Ltd</item>
+        <item>Gurgaon Gramin Bank</item>
+        <item>HDFC Bank Ltd</item>
+        <item>HSBC</item>
+        <item>ICICI Bank Ltd</item>
+        <item>IDBI Bank Ltd</item>
+        <item>IDRBT</item>
+        <item>Indian Bank</item>
+        <item>Indian Overseas Bank</item>
+        <item>IndusInd Bank Ltd</item>
+        <item>Industrial And Commercial Bank Of China Limited</item>
+        <item>ING Vysya Bank Ltd</item>
+        <item>Jalgaon Janata Sahkari Bank Ltd</item>
+        <item>Janakalyan Sahakari Bank Ltd</item>
+        <item>Janaseva Sahakari Bank Ltd</item>
+        <item>Janata Sahakari Bank Ltd</item>
+        <item>JP Morgan Chase Bank</item>
+        <item>Kallappanna Awade Ich Janata S Bank</item>
+        <item>Kapol Co Op Bank</item>
+        <item>Karnataka Bank Ltd</item>
+        <item>Karnataka Vikas Grameena Bank</item>
+        <item>Karur Vysya Bank</item>
+        <item>Kotak Mahindra Bank</item>
+        <item>Kurmanchal Nagar Sahkari Bank Ltd</item>
+        <item>Mahanagar Co-Op Bank Ltd</item>
+        <item>Maharashtra State Co Operative Bank</item>
+        <item>Mashreq Bank PSC</item>
+        <item>Mizuho Corporate Bank Ltd</item>
+        <item>Mumbai District Central Co-Op. Bank Ltd</item>
+        <item>Nagpur Nagrik Sahakari Bank Ltd</item>
+        <item>National Australia Bank</item>
+        <item>New India Co-Operative Bank Ltd</item>
+        <item>NKGSB Co-Op Bank Ltd</item>
+        <item>North Malabar Gramin Bank</item>
+        <item>Nutan Nagarik Sahakari Bank Ltd</item>
+        <item>Oman International Bank</item>
+        <item>Oriental Bank Of Commerce</item>
+        <item>Parsik Janata Sahakari Bank Ltd</item>
+        <item>Prathama Bank</item>
+        <item>Prime Co Operative Bank Ltd</item>
+        <item>Punjab And Maharashtra Co-Op Bank Ltd</item>
+        <item>Punjab And Sind Bank</item>
+        <item>Punjab National Bank</item>
+        <item>Rabo Bank International (CCRB)</item>
+        <item>Rajgurunagar Sahakari Bank Ltd</item>
+        <item>Rajkot Nagarik Sahakari Bank Ltd</item>
+        <item>Reserve Bank Of India</item>
+        <item>SBER Bank</item>
+        <item>Shinhan Bank</item>
+        <item>Shri Chhatrapati Rajarshi Shahu Urban Co-Op Bank Ltd</item>
+        <item>Societe Generale</item>
+        <item>Solapur Janata Sahkari Bank Ltd</item>
+        <item>South Indian Bank</item>
+        <item>Standard Chartered Bank</item>
+        <item>State Bank Of Bikaner And Jaipur</item>
+        <item>State Bank Of Hyderabad</item>
+        <item>State Bank Of India</item>
+        <item>State Bank Of Mauritius Ltd</item>
+        <item>State Bank Of Mysore</item>
+        <item>State Bank Of Patiala</item>
+        <item>State Bank Of Travancore</item>
+        <item>Sumitomo Mitsui Banking Corporation</item>
+        <item>Syndicate Bank</item>
+        <item>Tamilnad Mercantile Bank Ltd</item>
+        <item>Thane Bharat Sahakari Bank Ltd</item>
+        <item>The A.P. Mahesh Co-Op Urban Bank Ltd</item>
+        <item>The Ahmedabad Mercantile Co-Operative Bank Ltd</item>
+        <item>The Andhra Pradesh State Coop Bank Ltd</item>
+        <item>The Bank Of Nova Scotia</item>
+        <item>The Bank Of Rajasthan Ltd</item>
+        <item>The Bharat Co-Operative Bank Ltd</item>
+        <item>The Cosmos Co-Operative Bank Ltd</item>
+        <item>The Delhi State Cooperative Bank Ltd</item>
+        <item>The Federal Bank Ltd</item>
+        <item>The Gadchiroli District Central Cooperative Bank Ltd</item>
+        <item>The Greater Bombay Co-Op. Bank Ltd</item>
+        <item>The Gujarat State Co-Operative Bank Ltd</item>
+        <item>The Jalgaon Peoples Co-Op Bank</item>
+        <item>The Jammu And Kashmir Bank Ltd</item>
+        <item>The Kalupur Commercial Co. Op. Bank Ltd</item>
+        <item>The Kalyan Janata Sahakari Bank Ltd</item>
+        <item>The Kangra Central Co-Operative Bank Ltd</item>
+        <item>The Kangra Cooperative Bank Ltd</item>
+        <item>The Karad Urban Co-Op Bank Ltd</item>
+        <item>The Karnataka State Apex Coop. Bank Ltd</item>
+        <item>The Lakshmi Vilas Bank Ltd</item>
+        <item>The Mehsana Urban Cooperative Bank Ltd</item>
+        <item>The Municipal Co Operative Bank Ltd Mumbai</item>
+        <item>The Nainital Bank Limited</item>
+        <item>The Nasik Merchants Co-Op Bank Ltd</item>
+        <item>The Rajasthan State Cooperative Bank Ltd</item>
+        <item>The Ratnakar Bank Ltd</item>
+        <item>The Royal Bank Of Scotland</item>
+        <item>The Sahebrao Deshmukh Co-Op. Bank Ltd</item>
+        <item>The Saraswat Co-Operative Bank Ltd</item>
+        <item>The Seva Vikas Co-Operative Bank Ltd</item>
+        <item>The Shamrao Vithal Co-Operative Bank Ltd</item>
+        <item>The Surat District Co Operative Bank Ltd</item>
+        <item>The Surat Peoples Co-Op Bank Ltd</item>
+        <item>The Sutex Co.Op. Bank Ltd</item>
+        <item>The Tamilnadu State Apex Cooperative Bank Limited</item>
+        <item>The Thane District Central Co-Op Bank Ltd</item>
+        <item>The Thane Janata Sahakari Bank Ltd</item>
+        <item>The Varachha Co-Op. Bank Ltd</item>
+        <item>The Vishweshwar Sahakari Bank Ltd</item>
+        <item>The West Bengal State Cooperative Bank Ltd</item>
+        <item>TJSB Sahakari Bank Ltd</item>
+        <item>Tumkur Grain Merchants Cooperative Bank Ltd</item>
+        <item>UBS AG</item>
+        <item>Uco Bank</item>
+        <item>Union Bank Of India</item>
+        <item>United Bank Of India</item>
+        <item>United Overseas Bank</item>
+        <item>Vasai Vikas Sahakari Bank Ltd</item>
+        <item>Vijaya Bank</item>
+        <item>West Bengal State Cooperative Bank</item>
+        <item>WestPac Banking Corporation</item>
+        <item>Woori Bank</item>
+        <item>Yes Bank Ltd</item>
+        <item>Zila Sahkari Bank Ltd Ghaziabad</item>
+    </string-array>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
